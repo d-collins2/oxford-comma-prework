@@ -16,5 +16,7 @@ def oxford_comma(array)
       str << "#{el}"
     else 
       str << ", #{el}"
+    end 
   end 
+  str
 end
